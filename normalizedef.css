@@ -317,7 +317,7 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
+details {color-scheme:;
   display: block;
 }
 
