@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+body{ font-family: 'Righteous', cursive;}
+
+    .container{
+      margin-left: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;}
+      
+    
+
+      .bg-header{
+        background-image: url(asset/FUNDO\ .jpg);
+       height:19.75em;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+      
+      .bg-navbar{background-color: rgba(0, 0, 0, 0.363);
+      padding: 1.5em 0;}
+
+      .navbar{display: flex;
+      flex-direction: column;
+      align-items: center;
+      color:antiquewhite;
+      font-weight: 500;}
+
+     
+       
+      .navbar-brand{display: flex;
+      flex-direction: column;
+     align-items: center;
+     color: rgb(0, 0, 0) ;
+     font-size: 2rem;
+     text-decoration: none;
+     margin-bottom: 1em;}
+
+    .nav-link{color: antiquewhite;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.3em;
+    }
+
+    .nav-link:hover{ background-color: white;
+    color: black;
+    border-radius: 0.3em;}
+  
+    .navbar-brand img {width: 3em;
+}
+    .navbar-ancla{background-color: rgba(0, 0, 0, 0.89);
+    padding: 0.5em;
+    border-radius: 0.3em;}
+
+  
+    .display-flex{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+ }
+
+  
+
+   
+
+    .formato{width: 300px;
+    background-color: #2a9d8f;
+    color: white;
+    overflow: hidden;
+     border-radius: 0.5em;
+     margin:0.5em;}
+     
+     .card-img{width: 300px;}
+
+     .formato-2{width:300px;
+     background-color: chartreuse;
+     color:black;
+     overflow: hidden;
+     border-radius: 0.5em;
+     margin:0.5em;}
+
+     .card-img{width: 300px;}
+
+     .formato-3{width:300px;
+     background-color: rgb(255, 0, 0);
+     color:black;
+     overflow: hidden;
+     border-radius: 0.5em;
+     margin: 0.5em;}
+
+     .card-img{width: 300px;
+    }
+
+    
+     .formato-4{width:300px;
+     background-color: rgb(255, 0, 179);
+     color:rgb(245, 238, 238);
+     overflow: hidden;
+     border-radius: 0.5em;
+     margin: 0.5em;}
+
+
+     .card-img{width: 300px;
+    }
+
+      .color{ display: flex;
+      flex-direction: column;  
+      align-items: center;
+      margin-bottom: 1em;
+      background-color: rgb(0, 0, 0);
+      color: white;}
+      @media(min-width:500px) {.color{flex-direction:row-reverse;
+      text-align: center;width: auto;}}
+      
+    
+
+      .img{background-image: url(asset/nosotros-min.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:350px   ;
+        width: 100%;
+       order: 2;}
+
+        @media(min-width:500px) {.img{
+         height:460px; }}
+        
+      
+       .nosotro-col-text{}
+       @media(max-width:500px)  {.nosotro-col-text{width:500px}}
+
+    .card-img2{}
+
+     .ancla-3{
+      background-color: firebrick;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.1em;
+      text-align: center;
+      padding: 0.2em;
+      margin: bottom 1em;}
+      
+
+
+   
