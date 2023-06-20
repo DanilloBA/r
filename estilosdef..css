@@ -12,7 +12,8 @@ body{ font-family: 'Righteous', cursive;}
       margin-left: auto;
       margin-left: auto;
       display: flex;
-      flex-direction: column;}
+      flex-direction: column;
+      background-image: url(asset/fundo\ de\ pantalla.jpg);}
       
     
 
@@ -53,7 +54,18 @@ body{ font-family: 'Righteous', cursive;}
     .nav-link:hover{ background-color: white;
     color: black;
     border-radius: 0.3em;}
-  
+      
+
+    .informacion{;
+      text-align: center;
+      align-items: center;
+      
+    }
+    .contacto{
+    }
+    .logo-wha{width: 30px;
+    height: 30px;}
+
     .navbar-brand img {width: 3em;
 }
     .navbar-ancla{background-color: rgba(0, 0, 0, 0.89);
@@ -122,7 +134,7 @@ body{ font-family: 'Righteous', cursive;}
       
     
 
-      .img{background-image: url(asset/nosotros-min.png);
+      .img{background-image: url(asset/exclusiva-cliente-vendedor-02.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
